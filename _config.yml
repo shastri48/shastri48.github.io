@@ -27,6 +27,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: /blog/:title
 plugins:
   - jekyll-feed
 
@@ -41,3 +42,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
