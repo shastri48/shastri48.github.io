@@ -14,15 +14,13 @@ For this you need to learn few basic things as mentioned below...
 3. Install Bundler
       sudo apt-get install bundler
 {% endhighlight %}
-
 Sometimes we may face difficulties in installing the above things.  
 If you face [nakogiri][nakogiri] problem then use following command  
       -sudo apt-get install build-essential  
       -sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev  
       -sudo gem install nakogiri  
-      -bundle install         
-    
-     
+      -bundle install  
+        
 [nakogiri]: http://www.nokogiri.org/  
 [jekyll-gh]:   https://github.com/jekyll/jekyll  
 [jekyll-talk]: https://talk.jekyllrb.com/  
