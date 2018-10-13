@@ -24,6 +24,10 @@ header {
     font-size: 4rem;
     color:#d1383b;
   }
+  .logo__img{
+    width: 70px;
+    height: 50px;
+  }
   
   ul {
     display: flex;
@@ -31,14 +35,14 @@ header {
     li {
       flex: 1;
       a {
-        font-size: 1.5em;
+        font-size: 14px;
         font-weight: bold;
         padding: 1rem;
         text-align: center;
-        color: #d1383b;
+        color: white;
+        transition: all .3s ease-in-out;
         &:hover {
-          // background: #372f34;
-          color: orange;
+          color: #d1383b;
         }
       }
     }
@@ -91,16 +95,14 @@ header {
       border-radius: 50%;
       color: white;
       &:hover {
-        background: green;
+        background: rgb(212, 15, 15);
+        border: none;
       }
       .fab {
         position: absolute;
         left:50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        &:hover {
-          color:yellow; 
-        }
       }
     }
   }
