@@ -1,0 +1,151 @@
+$dr-text-primary: #526273;
+$dr-text-light: #8f8f8f;
+$dr-text-dark: #262E44;
+$dr-white: #ffffff !default;
+$dr-off-white: #f9f9fc;
+
+html {
+  color: $dr-text-primary;
+  background-color: $dr-off-white;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.flex {
+  flex: 1;
+}
+
+.d-flex {
+  display: flex;
+
+  &.layout-column {
+    flex-direction: column;
+  }
+
+  &.jc-center {
+    justify-content: center;
+  }
+
+  &.jc-space-between {
+    justify-content: space-between;
+  }
+
+  &.jc-space-around {
+    justify-content: space-around;
+  }
+
+  &.jc-end {
+    justify-content: flex-end;
+  }
+
+  &.ai-center {
+    align-items: center;
+  }
+
+  &.ai-start {
+    align-items: flex-start;
+  }
+}
+
+.dt-text-xs {
+  font-size: 0.8rem;
+}
+
+.dt-text-sm {
+  font-size: 1rem;
+}
+
+.dt-text-md {
+  font-size: 1.5rem;
+}
+
+.dt-text-lg {
+  font-size: 2rem;
+}
+
+.dt-text-x-lg {
+  font-size: 2.5rem;
+}
+
+
+.dt-text-primary {
+  color: $dr-text-primary;
+}
+
+.dt-text-secondary {
+  color: $dr-text-light;
+}
+
+.dt-scroll {
+  -webkit-overflow-scrolling: touch;
+
+  &.y {
+    overflow-y: auto;
+    max-height: 100%;
+
+    &.force-scroll {
+      overflow-y: scroll;
+    }
+  }
+
+  &.x {
+    overflow-x: auto;
+    max-width: 100%;
+
+    &.force-scroll {
+      overflow-x: scroll;
+    }
+  }
+}
+
+
+.fill-height {
+  height: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.animated.fastest {
+  animation-duration: 250ms;
+}
+
+.el-tooltip__popper {
+  z-index: 3004 !important;
+}
+
+.dt-share-container {
+  .el-message-box__title {
+    font-weight: 700;
+  }
+
+  .dt-share-dialog {
+    width: 100%;
+    padding: 1rem 0.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+
+    input.link-input {
+      padding: 1rem 0.5rem;
+      font-size: 1rem;
+      font-weight: 700;
+      border: none;
+      background: transparent;
+      border-bottom: 1px solid #dedede;
+    }
+
+    p.share-message {
+      margin-top: 1rem;
+      white-space: normal;
+    }
+  }
+
+  button.dt-copy-share-url, .el-message-box__btns {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+  }
+
+}
