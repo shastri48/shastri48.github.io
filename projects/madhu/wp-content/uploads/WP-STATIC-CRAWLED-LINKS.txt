@@ -1,7 +1,7 @@
 /
+/about/
 /comments/feed/
 /feed/
-/home/
 /wp-content/themes/arrival-me/style.css
 /wp-content/themes/arrival/assets/css/content.css
 /wp-content/themes/arrival/assets/css/responsive.css
