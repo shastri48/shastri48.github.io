@@ -125,7 +125,9 @@ const BlogPostComponent: React.FC<BlogPostProps> = ({ post, relatedPosts = [] })
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             components={{
-              code({ node, inline, className, children, ...props }: any) {
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              code(props: any) {
+                const { inline, className, children } = props;
                 const match = /language-(\w+)/.exec(className || '');
                 return !inline && match ? (
                   <SyntaxHighlighter
@@ -192,6 +194,7 @@ const BlogPostComponent: React.FC<BlogPostProps> = ({ post, relatedPosts = [] })
               ),
               img: ({ src, alt }) => (
                 <div className="my-8">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={src}
                     alt={alt}

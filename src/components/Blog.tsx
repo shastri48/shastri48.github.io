@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, Tag, User, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import { formatDate, type BlogPostMeta } from '@/lib/blog-client';
 
 interface BlogProps {

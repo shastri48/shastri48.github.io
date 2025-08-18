@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Code, Zap, Users, Globe } from 'lucide-react';
+import { ExternalLink, Github, Code } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -167,7 +167,7 @@ const Projects = () => {
             <Code size={48} className="mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">More Projects Coming Soon!</h3>
             <p className="text-lg opacity-90 max-w-3xl mx-auto mb-6">
-              I'm constantly working on new projects and exploring cutting-edge technologies. 
+              I&apos;m constantly working on new projects and exploring cutting-edge technologies.
               Check out my GitHub for the latest updates and contributions.
             </p>
             <motion.a

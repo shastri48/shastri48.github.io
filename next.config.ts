@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: 'export', // 👈 This makes Next export static files
+  images: {
+    unoptimized: true, // GitHub Pages doesn't support Next image optimization
+  },
+  trailingSlash: true, // Ensures compatibility with static hosting
   webpack: (config: any) => {
     // Handle PDF.js worker
     config.resolve.alias = {
@@ -18,20 +23,6 @@ const nextConfig: NextConfig = {
     });
 
     return config;
-  },
-  // Allow PDF files to be served
-  async headers() {
-    return [
-      {
-        source: '/resume.pdf',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'application/pdf',
-          },
-        ],
-      },
-    ];
   },
 };
 

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Home, User, Award, Briefcase, GraduationCap, Code, BookOpen } from 'lucide-react';
 
@@ -8,7 +8,7 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
-  const navItems = [
+  const navItems = useMemo(() => [
     { id: 'home', label: 'Home', icon: Home },
     { id: 'about', label: 'About', icon: User },
     { id: 'achievements', label: 'Achievements', icon: Award },
@@ -16,7 +16,7 @@ const Navigation = () => {
     { id: 'education', label: 'Education', icon: GraduationCap },
     { id: 'projects', label: 'Projects', icon: Code },
     { id: 'blog', label: 'Blog', icon: BookOpen },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,7 +34,7 @@ const Navigation = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [navItems]);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);

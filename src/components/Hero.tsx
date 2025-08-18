@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, MapPin, Mail, Phone, FileText, Eye } from 'lucide-react';
+import { ChevronDown, MapPin, Mail, Phone, Eye } from 'lucide-react';
 import Image from 'next/image';
 import PDFViewer from './PDFViewer';
 

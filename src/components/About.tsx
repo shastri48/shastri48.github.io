@@ -64,12 +64,12 @@ const About = () => {
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
               As a Frontend Lead with 6+ years of experience, I specialize in building scalable and 
               high-performance web applications. My journey has taken me through various roles where 
-              I've led teams, optimized processes, and delivered innovative solutions.
+              I&apos;ve led teams, optimized processes, and delivered innovative solutions.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
               Currently working at Vegrow in Bangalore, I lead a team of engineers to build scalable 
               applications while ensuring best practices and modern technologies are implemented. 
-              I'm passionate about mentoring engineers and fostering a high-performance culture.
+              I&apos;m passionate about mentoring engineers and fostering a high-performance culture.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               My expertise spans across the full stack, from frontend frameworks like React and Vue.js 

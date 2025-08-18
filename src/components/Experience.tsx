@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Users, TrendingUp, Award, Zap, Folder, Target, Code } from 'lucide-react';
+import { Calendar, MapPin, Users, TrendingUp, Award, Folder, Target, Code } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
