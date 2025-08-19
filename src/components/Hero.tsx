@@ -133,6 +133,16 @@ const Hero = () => {
             >
               View LinkedIn
             </motion.a>
+            <motion.a
+              href="https://shastri48.medium.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-medium transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              View Medium
+            </motion.a>
           </motion.div>
 
           {/* Resume Section */}
