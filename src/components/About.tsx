@@ -6,7 +6,7 @@ import { Code, Users, Zap, Target } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    'HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Express', 'Vue.js', 'Next.js',
+    'HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Express', 'Vue.js', 'Svelte', 'Next.js',
     'MongoDB', 'Node.js', 'ROR', 'Git', 'S3 & CloudFront', 'Jenkins', 'REST API Development'
   ];
 
@@ -14,7 +14,7 @@ const About = () => {
     {
       icon: Code,
       title: 'Full Stack Expertise',
-      description: 'Proficient in modern web technologies with 6+ years of hands-on experience'
+      description: 'Proficient in modern web technologies with 7+ years of hands-on experience'
     },
     {
       icon: Users,
@@ -62,14 +62,14 @@ const About = () => {
               My Journey
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              As a Frontend Lead with 6+ years of experience, I specialize in building scalable and 
-              high-performance web applications. My journey has taken me through various roles where 
+              As a Frontend Engineer with 7+ years of experience, I specialize in building scalable and
+              high-performance web applications. My journey has taken me through various roles where
               I&apos;ve led teams, optimized processes, and delivered innovative solutions.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Currently working at Vegrow in Bangalore, I lead a team of engineers to build scalable 
-              applications while ensuring best practices and modern technologies are implemented. 
-              I&apos;m passionate about mentoring engineers and fostering a high-performance culture.
+              Currently working at Cashfree Payments in Bangalore, I lead frontend development for
+              merchant-facing payment products, building scalable, secure, and high-performance web
+              applications while ensuring best practices and modern technologies are implemented.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
               My expertise spans across the full stack, from frontend frameworks like React and Vue.js 

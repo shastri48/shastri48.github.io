@@ -16,13 +16,22 @@ const Education = () => {
       description: 'Focused on computer science fundamentals, software engineering principles, and modern programming practices.'
     },
     {
-      degree: 'INTERMEDIATE',
-      field: 'MATRICULATION',
+      degree: 'Intermediate (12th)',
+      field: 'Central Board of Secondary Education (CBSE)',
       institution: 'SAINIK SCHOOL GOPALGANJ',
-      period: '2006-2013',
+      period: '2011-2013',
       location: 'India',
       type: 'Secondary Education',
       description: 'Strong foundation in mathematics, science, and analytical thinking that shaped my problem-solving approach.'
+    },
+    {
+      degree: 'Matriculation (10th)',
+      field: 'Central Board of Secondary Education (CBSE)',
+      institution: 'SAINIK SCHOOL GOPALGANJ',
+      period: '2006-2011',
+      location: 'India',
+      type: 'Secondary Education',
+      description: 'Built early academic discipline and a strong foundation across core subjects.'
     }
   ];
 

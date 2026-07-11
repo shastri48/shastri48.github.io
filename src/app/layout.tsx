@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Abhishek Shastri - Frontend Lead & Full Stack Engineer",
-  description: "Passionate Frontend Lead with 6+ years of experience in building scalable web applications, enhancing user experiences, and leading teams to drive innovation.",
+  description: "Passionate Frontend Lead with 7+ years of experience in building scalable web applications, enhancing user experiences, and leading teams to drive innovation.",
   keywords: "Frontend Lead, Full Stack Engineer, React, Next.js, TypeScript, JavaScript, Web Development",
   authors: [{ name: "Abhishek Shastri" }],
   openGraph: {
     title: "Abhishek Shastri - Frontend Lead & Full Stack Engineer",
-    description: "Passionate Frontend Lead with 6+ years of experience in building scalable web applications.",
+    description: "Passionate Frontend Lead with 7+ years of experience in building scalable web applications.",
     type: "website",
   },
 };

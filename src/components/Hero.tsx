@@ -64,7 +64,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-2"
           >
-            ENGINEERING LEAD
+            SOFTWARE ENGINEER 3 - FRONTEND
           </motion.p>
 
           <motion.p
@@ -73,8 +73,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-3xl mx-auto"
           >
-            Frontend Lead with 6+ years of experience, passionate about building scalable web applications, 
-            enhancing user experiences, and leading teams to drive innovation.
+            Frontend Engineer with 7+ years of experience building scalable, high-performance web applications
+            using React, Ruby on Rails, and Node.js, with a strong focus on quality, reliability, and
+            AI-assisted productivity.
           </motion.p>
 
           <motion.div
@@ -93,7 +94,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} />
-              <span>+91 7277897789</span>
+              <span>+91 7277891789</span>
             </div>
           </motion.div>
 

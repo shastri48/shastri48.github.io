@@ -7,100 +7,154 @@ import { Calendar, MapPin, Users, TrendingUp, Award, Folder, Target, Code } from
 const Experience = () => {
   const experiences = [
     {
-      title: 'Engineering Lead',
-      company: 'Vegrow',
+      title: 'Software Engineer 3 - Frontend',
+      company: 'Cashfree Payments',
       location: 'Bangalore',
-      period: 'Aug 2024 - Present',
+      period: 'Apr 2026 - Present',
       type: 'Current Role',
       projects: [
         {
-          name: 'Team Performance & Development Initiative',
-          description: 'Established engineering excellence practices and mentorship programs',
+          name: 'E2E Merchant Onboarding Platform',
+          description: 'Built an end-to-end onboarding platform for merchants covering KYC and compliance workflows',
           deliverables: [
-            'Code quality framework with automated testing achieving 90% coverage',
-            'Engineering KPI dashboard for tracking team performance',
-            'Mentorship program resulting in 40% faster onboarding',
-            'Tech talk sessions for knowledge sharing',
+            'KYC document upload flow with validation',
+            'OTP verification and bank account validation',
+            'Automated compliance workflows reducing manual review effort'
           ],
           myContribution: [
-            'Designed and implemented code review processes and standards',
-            'Organized tech talk sessions for knowledge sharing',
-            'Monitored team performance using KPI dashboard and provided feedback'          ],
-          technologies: ['JIRA', 'Confluence', 'Doc']
+            'Led frontend development for merchant-facing payment products',
+            'Built the KYC document upload, OTP verification and bank account validation flows',
+            'Implemented automated compliance workflows end-to-end'
+          ],
+          technologies: ['React.js', 'Next.js', 'TypeScript', 'Redux', 'REST APIs']
         },
         {
-          name: 'Finance, Export & Admin Dashboard (3 Projects)',
-          description: 'Build a simplified dashboard for finance, export and admin',
+          name: 'Payment Gateway Checkout',
+          description: 'Built a unified checkout solution supporting multiple payment methods with reliability at scale',
           deliverables: [
-            'Finance work was automated/Apple process was simplified/Export dashboard was built for export team/Admin dashboard was made more powerful',
-            'Project to have major impact on business making it a success',
-            'Delivered 3 projects on time and on budget making EBITDA positive'
+            'Checkout support for Cards, UPI, Net Banking, Wallets and EMI',
+            'Automated retry mechanisms for failed payments',
+            'Improved checkout performance through rendering and API optimizations'
           ],
           myContribution: [
-            'Led a team of 8 developers across frontend, backend and QA teams',
-            'Designed and implemented code review processes and deployment pipelines',
-            'Configured AWS infrastructure and CDN optimization for optimal performance',
-            'JIRA and confluence for project management and tracking',
+            'Built the Payment Gateway Checkout solution supporting Cards, UPI, Net Banking, Wallets and EMI',
+            'Implemented robust error handling and automated retry mechanisms for reliability',
+            'Optimized checkout performance through advanced rendering improvements, API optimizations and code splitting'
           ],
-          technologies: ['Rails', 'React', 'Javascript', 'JIRA', 'Confluence', 'Docker', 'Kubernetes', 'AWS', 'Performance Optimization', 'Node.js', 'Jenkins']
+          technologies: ['React.js', 'Next.js', 'TypeScript', 'Redux', 'REST APIs', 'Storybook', 'Webpack']
+        },
+        {
+          name: 'CI/CD Test Automation',
+          description: 'Implemented automation pipelines to ensure code quality and deployment stability',
+          deliverables: [
+            'Unit and UI test automation integrated into CI/CD',
+            'Improved deployment stability and reduced regressions'
+          ],
+          myContribution: [
+            'Implemented comprehensive CI/CD automation pipelines for unit and UI test cases using Jest and Playwright'
+          ],
+          technologies: ['Jest', 'Playwright', 'AWS', 'CI/CD']
         }
       ],
-      technologies: ['React', 'Node.js', 'Javascript', 'AWS', 'Performance Optimization']
+      technologies: ['React.js', 'Next.js', 'TypeScript', 'Redux', 'REST APIs', 'Storybook', 'Webpack', 'AWS']
     },
     {
-      title: 'Team Lead | Frontend Lead',
+      title: 'Engineering Lead',
       company: 'Vegrow',
       location: 'Bangalore',
-      period: 'May 2021 - July 2024',
+      period: 'Aug 2024 - Mar 2026',
       type: 'Leadership Role',
       projects: [
         {
-          name: 'Build B2R Ecommerce Platform',
-          description: 'Built business to retail Ecommerce Platform for Vegrow Internal use',
+          name: 'Banana Export Operations Dashboard',
+          description: 'Designed and owned a scalable React application for internal export operations teams',
           deliverables: [
-            'Built business to retail Ecommerce Platform for Vegrow Internal use',
-            'Implemented order management system',
-            'Implemented inventory management system',
+            'Operations dashboard enabling ~150 container dispatches per week',
+            'Frontend architecture focused on performance, scalability and long-term maintainability'
           ],
           myContribution: [
-            'Designed and implemented a full-scale Ecommerce platform frontend with order and inventory management system.',
-            'Set up deployment pipeline using Jenkins and configured AWS S3 & CloudFront for static asset delivery.',
-            'Established JIRA for streamlined project management and tracking.',
+            'Designed and owned the scalable React application end-to-end for the export operations team',
+            'Contributed to frontend architecture decisions focused on performance and maintainability'
           ],
-          technologies: ['React', 'JavaScript', 'Rails', 'Jenkins', 'AWS S3', 'CloudFront', 'JIRA', 'CI/CD']
+          technologies: ['ReactJs', 'NextJs', 'Storybook', 'Cypress', 'Webpack']
+        },
+        {
+          name: 'Customer Onboarding & Relationship Management System',
+          description: 'Built an end-to-end CRM system replacing a third-party vendor',
+          deliverables: [
+            'Reduced annual CRM costs by ₹45 lakhs',
+            'Cut customer onboarding time from 1 day to ~8 minutes'
+          ],
+          myContribution: [
+            'Built the end-to-end Customer Onboarding & Relationship Management system replacing a third-party CRM',
+            'Drove the effort that reduced annual costs by ₹45 lakhs and onboarding time from 1 day to ~8 minutes'
+          ],
+          technologies: ['ReactJs', 'NextJs', 'Ruby on Rails', 'AWS S3', 'Cloudfront']
+        },
+        {
+          name: 'AI-Assisted Engineering Velocity Initiative',
+          description: 'Improved engineering velocity through AI-assisted development practices',
+          deliverables: [
+            'Reduced feature delivery time by ~33%',
+            'Maintained high code quality while resolving production issues'
+          ],
+          myContribution: [
+            'Improved engineering velocity by driving AI-assisted development adoption (Windsurf, Claude AI)',
+            'Reduced feature delivery time by ~33% while maintaining high code quality and resolving production issues'
+          ],
+          technologies: ['Windsurf', 'Claude AI', 'ReactJs', 'Ruby on Rails']
+        }
+      ],
+      technologies: ['ReactJs', 'NextJs', 'Storybook', 'Cypress', 'Webpack', 'Ruby on Rails', 'Jenkins', 'AWS S3', 'Cloudfront']
+    },
+    {
+      title: 'Senior Software Engineer',
+      company: 'Vegrow',
+      location: 'Bangalore',
+      period: 'May 2021 - July 2024',
+      type: 'Senior Role',
+      projects: [
+        {
+          name: 'B2B Payments & Delivery Platform',
+          description: 'Owned end-to-end webapp development for business-critical B2B applications',
+          deliverables: [
+            'Instant payment collection and same-day (EOD) settlements',
+            'Last Mile Delivery workflows reducing payment cycles from 3-7 days to same day'
+          ],
+          myContribution: [
+            'Owned end-to-end webapps development for business-critical B2B applications',
+            'Built scalable React UI and a composable architecture enabling instant payment collection, same-day settlements and Last Mile Delivery workflows'
+          ],
+          technologies: ['ReactJs', 'NextJs', 'Ruby on Rails', 'AWS S3', 'Cloudfront']
         },
         {
           name: 'Internal Frontend Component Library',
-          description: 'Developed a comprehensive UI component library to standardize development across teams',
+          description: 'Built and standardized a shared component library and composable UI system',
           deliverables: [
-            'Reusable component library with 50+ components',
-            'Design system documentation and guidelines',
-            'Internal NPM package with automated versioning and publishing'
+            'Reduced bundle size from ~30MB to ~12MB',
+            'Consistent UX across applications and faster feature development across teams'
           ],
           myContribution: [
-            'Architected the component library structure and API design',
-            'Led development team of 6 frontend engineers',
-            'Established coding standards and review processes'
+            'Built and standardized a shared component library and composable UI system',
+            'Reduced bundle size from ~30MB to ~12MB, improving load times and ensuring consistent UX across applications'
           ],
-          technologies: ['React', 'JavaScript', 'Storybook', 'Rollup', 'NPM', 'CSS-in-JS']
+          technologies: ['React', 'JavaScript', 'Storybook', 'CSS-in-JS']
         },
         {
           name: 'CI/CD Pipeline & Deployment Infrastructure',
-          description: 'Built automated deployment pipelines for web applications',
+          description: 'Optimized frontend build, deployment and runtime performance',
           deliverables: [
-            'Jenkins CI/CD pipelines reducing deployment time by 80%',
-            'AWS S3 and CloudFront configuration for optimal performance and zero downtime',
-            'Automated testing and quality gates achieving 95% reliability'
+            'Reduced deployment time from ~30 minutes to ~4 minutes with zero downtime',
+            'Efficient REST API integrations with robust async workflows and error handling'
           ],
           myContribution: [
-            'Designed and implemented entire CI/CD architecture',
-            'Configured AWS infrastructure and CDN optimization',
-            'Mentored team on DevOps best practices and performance optimization'
+            'Optimized frontend build, deployment and runtime performance through advanced Webpack configuration, code splitting and CI pipeline improvements',
+            'Ensured efficient REST API integrations with robust async workflows, error handling and improved runtime stability'
           ],
-          technologies: ['Jenkins', 'AWS S3', 'CloudFront', 'Docker', 'Bash']
+          technologies: ['Jenkins', 'AWS S3', 'CloudFront', 'Webpack']
         }
       ],
-      technologies: ['React', 'JavaScript', 'Rails', 'Jenkins', 'AWS S3', 'CloudFront', 'JIRA', 'CI/CD']
+      technologies: ['ReactJs', 'NextJs', 'Webpack', 'Ruby on Rails', 'Jenkins', 'AWS S3', 'Cloudfront']
     },
     {
       title: 'Staff Software Engineer',

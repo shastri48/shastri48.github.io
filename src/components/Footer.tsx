@@ -51,7 +51,7 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Abhishek Shastri</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Frontend Lead with 6+ years of experience building scalable web applications. 
+              Frontend Engineer with 7+ years of experience building scalable, high-performance web applications.
               Passionate about leading teams, driving innovation, and creating exceptional user experiences.
             </p>
             <div className="space-y-2 text-gray-300">
@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>+91 7277897789</span>
+                <span>+91 7277891789</span>
               </div>
             </div>
           </motion.div>
